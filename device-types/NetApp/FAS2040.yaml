@@ -1,0 +1,28 @@
+---
+manufacturer: NetApp
+model: FAS2040
+slug: netapp-fas2040
+part_number: FAS2040
+u_height: 2
+is_full_depth: true
+console-ports:
+  - name: con0
+    type: rj-45
+interfaces:
+  - name: e0P
+    type: 1000base-t
+  - name: mgmt
+    type: 1000base-t
+  - name: e0a
+    type: 1000base-t
+  - name: e0b
+    type: 1000base-t
+  - name: e0c
+    type: 1000base-t
+  - name: e0d
+    type: 1000base-t
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
