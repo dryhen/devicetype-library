@@ -1,0 +1,28 @@
+---
+manufacturer: Cisco
+model: 5520 Wireless Controller
+slug: cisco-wc-5520
+is_full_depth: true
+u_height: 1
+interfaces:
+  - name: mgmt
+    type: 1000-base-t
+    mgmt_only: true
+  - name: SP
+    type: 1000base-t
+  - name: RP
+    type: 1000base-t
+  - name: Port 1
+    type: 10gbase-t
+  - name: Port 2
+    type: 10gbase-t
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: PwrA
+    type: iec-60320-c14
+    maximum_draw: 135
+  - name: PwrB
+    type: iec-60320-c14
+    maximum_draw: 135
